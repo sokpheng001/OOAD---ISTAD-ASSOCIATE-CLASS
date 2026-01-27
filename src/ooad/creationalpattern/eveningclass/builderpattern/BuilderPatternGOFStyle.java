@@ -1,4 +1,4 @@
-package ooad.creationalpattern.eveningclass;
+package ooad.creationalpattern.eveningclass.builderpattern;
 
 import lombok.Setter;
 import lombok.ToString;

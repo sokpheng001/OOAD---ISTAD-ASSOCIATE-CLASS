@@ -1,4 +1,4 @@
-package ooad.creationalpattern.eveningclass;
+package ooad.creationalpattern.eveningclass.prototypepattern;
 
 
 public class PrototypeDemo {

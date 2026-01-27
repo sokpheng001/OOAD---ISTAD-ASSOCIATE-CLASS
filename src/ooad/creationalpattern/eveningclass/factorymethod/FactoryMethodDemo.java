@@ -1,5 +1,4 @@
-package ooad.creationalpattern.morningclass;
-// product interface
+package ooad.creationalpattern.eveningclass.factorymethod;
 
 
 public class FactoryMethodDemo {

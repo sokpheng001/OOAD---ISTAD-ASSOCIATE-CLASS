@@ -1,4 +1,4 @@
-package ooad.creationalpattern.morningclass;
+package ooad.creationalpattern.morningclass.builderpattern;
 
 import java.time.LocalDate;
 import java.util.Arrays;

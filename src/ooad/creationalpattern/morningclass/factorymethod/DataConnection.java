@@ -1,7 +1,9 @@
 package ooad.creationalpattern.morningclass.factorymethod;
 
 
-public class DataConnection implements ConnectionProduct{
+// concrete product
+public class DataConnection
+        implements ConnectionProduct{
     private String host;
     private String user;
     private String password;

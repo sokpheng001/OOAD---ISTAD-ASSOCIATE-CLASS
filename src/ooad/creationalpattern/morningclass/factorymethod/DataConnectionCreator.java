@@ -1,5 +1,6 @@
 package ooad.creationalpattern.morningclass.factorymethod;
 
+// concrete creator
 public class DataConnectionCreator
         extends ConnectionCreator{
     // factory method

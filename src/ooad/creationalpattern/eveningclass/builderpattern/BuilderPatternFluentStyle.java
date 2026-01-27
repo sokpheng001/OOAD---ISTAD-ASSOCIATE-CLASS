@@ -1,8 +1,6 @@
-package ooad.creationalpattern.eveningclass;
+package ooad.creationalpattern.eveningclass.builderpattern;
 
-import lombok.Builder;
 import lombok.ToString;
-import oop.exceptionhandling.Product;
 
 class Entity{
      Integer id;

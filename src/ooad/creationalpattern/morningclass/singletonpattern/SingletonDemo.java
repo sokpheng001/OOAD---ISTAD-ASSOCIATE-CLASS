@@ -1,4 +1,4 @@
-package ooad.creationalpattern.morningclass;
+package ooad.creationalpattern.morningclass.singletonpattern;
 
 import java.util.UUID;
 

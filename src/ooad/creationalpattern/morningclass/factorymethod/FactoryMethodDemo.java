@@ -1,6 +1,8 @@
 package ooad.creationalpattern.morningclass.factorymethod;
+// product interface
 
-public class App2 {
+
+public class FactoryMethodDemo {
     public static void main(String[] args) {
 
     }
