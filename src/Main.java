@@ -1,35 +1,14 @@
 import java.util.List;
 
-interface Repository<T,U>{
-    List<T> findAll();
-    T save(T o);
-}
-class Product{}
-class ProductRepo implements Repository<Product, Integer>{
-    @Override
-    public List<Product> findAll() {
-        return List.of();
-    }
-
-    @Override
-    public Product save(Product o) {
-        return null;
-    }
-}
-class User{}
-class UserRepo implements Repository<User, Integer>{
-    @Override
-    public List<User> findAll() {
-        return List.of();
-    }
-
-    @Override
-    public User save(User o) {
-        return null;
-    }
-}
+interface Person{}
+class Student implements Person{}
+class Teacher implements Person{}
 public class Main {
+    private static void test(Person person){}
     public static void main(String[] args) {
-
+        Student student = new Student();
+        Teacher teacher = new Teacher();
+        test(student);
+        test(teacher);
     }
 }
