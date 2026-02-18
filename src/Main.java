@@ -1,14 +1,17 @@
-import java.util.List;
+import java.sql.Connection;
+import java.sql.DriverManager;
 
-interface Person{}
-class Student implements Person{}
-class Teacher implements Person{}
 public class Main {
-    private static void test(Person person){}
     public static void main(String[] args) {
-        Student student = new Student();
-        Teacher teacher = new Teacher();
-        test(student);
-        test(teacher);
+        try{
+            Connection connection
+                    = DriverManager.getConnection(
+                            "",
+                    "",
+                    ""
+            );
+        }catch (Exception e){
+
+        }
     }
 }
